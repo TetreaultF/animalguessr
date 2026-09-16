@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimalGuessr</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+<body>
+
+    <div id="alert-overlay" class="hidden">
+        <div id="alert-modal">
+            <p id="alert-text">Message d'erreur</p>
+            <button id="btn-alert-close">OK</button>
+        </div>
+    </div>
+
+    <div id="game-container">
+
+        <div id="map-wrapper">
+            <img id="game-map" src="/carte-test.png" alt="Carte du monde Fauna">
+
+            <svg id="map-svg-layer" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <path id="distribution-polygon" d="" />
+            </svg>
+
+            <div id="game-status-bar">
+                <div id="round-counter">RONDE 1 / 10</div>
+                <div id="score-counter">SCORE: 0</div>
+            </div>
+
+            <div id="user-pin" class="hidden"></div>
+
+            <div id="animal-card" class="hidden">
+                <span class="card-title">ANIMAL:</span>
+                <div id="animal-sprite-placeholder">
+                    <img id="animal-pic"
+                         src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='90' height='90'></svg>"
+                         alt="">
+                    <div id="status-badge">??</div>
+                </div>
+                <div id="animal-name">???</div>
+            </div>
+
+            <div id="start-overlay">
+                <div id="start-modal">
+                    <h1 id="start-title">Bienvenue dans AnimalGuessr!</h1>
+                    <div id="start-instructions">
+                        <p>Devine les caractéristiques de l'animal :</p>
+                        <ul>
+                            <li>Place un point sur sa zone de répartition sur la carte.</li>
+                            <li>Ajuste sa taille et son poids avec les curseurs.</li>
+                            <li>Sélectionne son régime alimentaire.</li>
+                        </ul>
+                        <p>Une partie compte 10 rondes. Bonne chance!</p>
+                    </div>
+                    <button id="btn-start">COMMENCER</button>
+                </div>
+            </div>
+
+            <div id="results-overlay" class="hidden">
+                <div id="results-modal">
+                    <h2 id="results-title">SCORE</h2>
+                    <table id="results-table">
+                        <thead>
+                            <tr>
+                                <th>CRITÈRE</th>
+                                <th>VOTRE CHOIX</th>
+                                <th>ATTENDU</th>
+                                <th>POINTS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ALIMENTATION</td>
+                                <td id="res-chosen-diet">-</td>
+                                <td id="res-actual-diet">-</td>
+                                <td id="res-diet-points">0</td>
+                            </tr>
+                            <tr>
+                                <td>LONGUEUR</td>
+                                <td id="res-chosen-length">-</td>
+                                <td id="res-actual-length">-</td>
+                                <td id="res-length-points">0</td>
+                            </tr>
+                            <tr>
+                                <td>POIDS</td>
+                                <td id="res-chosen-weight">-</td>
+                                <td id="res-actual-weight">-</td>
+                                <td id="res-weight-points">0</td>
+                            </tr>
+                            <tr>
+                                <td>HABITAT</td>
+                                <td colspan="2" id="res-geo-detail">-</td>
+                                <td id="res-geo-points">0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div id="total-container">
+                        SCORE DE LA RONDE : <span id="res-total-score">0</span> / 1000
+                    </div>
+                    <button id="btn-next-animal">ANIMAL SUIVANT</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="ui-panel">
+            <div id="left-ui">
+                <div class="slider-group">
+                    <label>LONGUEUR <span id="length-value" class="slider-val">&lt; 10 cm</span></label>
+                    <input type="range" id="length-slider" min="0" max="31" value="0" step="1">
+                </div>
+                <div class="slider-group">
+                    <label>POIDS <span id="weight-value" class="slider-val">&lt; 1 kg</span></label>
+                    <input type="range" id="weight-slider" min="0" max="64" value="0" step="1">
+                </div>
+            </div>
+
+            <div id="right-ui">
+                <div id="diet-container">
+                    <label>ALIMENTATION</label>
+                    <div id="tiles-grid">
+                        <div class="food-tile" data-food="herbivore">
+                            <img src="/herbivore.png" alt="Herbivore" class="food-icon">
+                        </div>
+                        <div class="food-tile" data-food="carnivore">
+                            <img src="/carnivore.png" alt="Carnivore" class="food-icon">
+                        </div>
+                        <div class="food-tile" data-food="insectivore">
+                            <img src="/insectivore.png" alt="Insectivore" class="food-icon">
+                        </div>
+                        <div class="food-tile" data-food="piscivore">
+                            <img src="/piscivore.png" alt="Piscivore" class="food-icon">
+                        </div>
+                        <div class="food-tile" data-food="omnivore">
+                            <img src="/omnivore.png" alt="Omnivore" class="food-icon">
+                        </div>
+                    </div>
+                </div>
+                <button id="btn-guess">VALIDER</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="modal-overlay" class="hidden">
+        <div id="modal-content">
+            <button id="modal-close-btn">X</button>
+            <img id="modal-animal-img" src="" alt="Zoom animal">
+            <div id="modal-animal-name">???</div>
+        </div>
+    </div>
+
+    <div id="final-overlay" class="hidden">
+        <div id="final-modal">
+            <h2>SCORE FINAL</h2>
+            <div id="final-summary-scroll">
+                <table id="final-table">
+                    <thead>
+                        <tr>
+                            <th>RONDE</th>
+                            <th>ANIMAL</th>
+                            <th>SCORE</th>
+                        </tr>
+                    </thead>
+                    <tbody id="final-table-body"></tbody>
+                </table>
+            </div>
+            <div id="final-total-container">
+                SCORE FINAL : <span id="final-score-global">0</span> / 10000
+            </div>
+            <button id="btn-new-game">NOUVELLE PARTIE</button>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
