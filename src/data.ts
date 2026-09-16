@@ -9,7 +9,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 50,
         diet: 'herbivore',
-        imagePath: '/sprites/saiga.png',
+        imagePath: 'sprites/saiga.png',
         status: 'quasi menacé'
     },
     {
@@ -20,7 +20,7 @@ export const animalList: Animal[] = [
         length: 80,
         weight: 35,
         diet: 'carnivore',
-        imagePath: '/sprites/chimpanze-commun.jpg',
+        imagePath: 'sprites/chimpanze-commun.jpg',
         status: 'en danger'
     },
     {
@@ -31,7 +31,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 3,
         diet: 'herbivore',
-        imagePath: '/sprites/kakapo.png',
+        imagePath: 'sprites/kakapo.png',
         status: 'en danger critique'
     },
     {
@@ -42,7 +42,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 9,
         diet: 'herbivore',
-        imagePath: '/sprites/koala.png',
+        imagePath: 'sprites/koala.png',
         status: 'vulnérable'
     },
     {
@@ -53,7 +53,7 @@ export const animalList: Animal[] = [
         length: 150,
         weight: 100,
         diet: 'herbivore',
-        imagePath: '/sprites/panda-geant.png',
+        imagePath: 'sprites/panda-geant.png',
         status: 'vulnérable'
     },
     {
@@ -64,7 +64,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 5,
         diet: 'herbivore',
-        imagePath: '/sprites/panda-roux.png',
+        imagePath: 'sprites/panda-roux.png',
         status: 'en danger'
     },
     {
@@ -75,7 +75,7 @@ export const animalList: Animal[] = [
         length: 140,
         weight: 65,
         diet: 'herbivore',
-        imagePath: '/sprites/kangourou-roux.png',
+        imagePath: 'sprites/kangourou-roux.png',
         status: 'préoccupation mineure'
     },
     {
@@ -86,7 +86,7 @@ export const animalList: Animal[] = [
         length: 170,
         weight: 300,
         diet: 'herbivore',
-        imagePath: '/sprites/takin.png',
+        imagePath: 'sprites/takin.png',
         status: 'vulnérable'
     },
     {
@@ -97,7 +97,7 @@ export const animalList: Animal[] = [
         length: 500,
         weight: 6000,
         diet: 'herbivore',
-        imagePath: '/sprites/elephant-afrique.png',
+        imagePath: 'sprites/elephant-afrique.png',
         status: 'en danger'
     },
     {
@@ -108,7 +108,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 250,
         diet: 'herbivore',
-        imagePath: '/sprites/okapi.png',
+        imagePath: 'sprites/okapi.png',
         status: 'en danger'
     },
     {
@@ -119,7 +119,7 @@ export const animalList: Animal[] = [
         length: 100,
         weight: 80,
         diet: 'herbivore',
-        imagePath: '/sprites/babiroussa.png',
+        imagePath: 'sprites/babiroussa.png',
         status: 'vulnérable'
     },
     {
@@ -130,7 +130,7 @@ export const animalList: Animal[] = [
         length: 140,
         weight: 50,
         diet: 'herbivore',
-        imagePath: '/sprites/antilocapre.png',
+        imagePath: 'sprites/antilocapre.png',
         status: 'préoccupation mineure'
     },
     {
@@ -141,7 +141,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 700,
         diet: 'herbivore',
-        imagePath: '/sprites/banteng.png',
+        imagePath: 'sprites/banteng.png',
         status: 'en danger'
     },
     {
@@ -152,7 +152,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 900,
         diet: 'herbivore',
-        imagePath: '/sprites/gaur.png',
+        imagePath: 'sprites/gaur.png',
         status: 'vulnérable'
     },
     {
@@ -163,7 +163,7 @@ export const animalList: Animal[] = [
         length: 400,
         weight: 1200,
         diet: 'carnivore',
-        imagePath: '/sprites/beluga.png',
+        imagePath: 'sprites/beluga.png',
         status: 'préoccupation mineure'
     },
     {
@@ -174,7 +174,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 800,
         diet: 'herbivore',
-        imagePath: '/sprites/bison.png',
+        imagePath: 'sprites/bison.png',
         status: 'quasi menacé'
     },
     {
@@ -185,7 +185,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 300,
         diet: 'herbivore',
-        imagePath: '/sprites/boeuf-musque.png',
+        imagePath: 'sprites/boeuf-musque.png',
         status: 'préoccupation mineure'
     },
     {
@@ -196,7 +196,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 300,
         diet: 'herbivore',
-        imagePath: '/sprites/bongo.png',
+        imagePath: 'sprites/bongo.png',
         status: 'en danger critique'
     },
     {
@@ -207,7 +207,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 150,
         diet: 'piscivore',
-        imagePath: '/sprites/boto.png',
+        imagePath: 'sprites/boto.png',
         status: 'en danger'
     },
     {
@@ -218,7 +218,7 @@ export const animalList: Animal[] = [
         length: 140,
         weight: 100,
         diet: 'herbivore',
-        imagePath: '/sprites/bouquetin-des-alpes.png',
+        imagePath: 'sprites/bouquetin-des-alpes.png',
         status: 'préoccupation mineure'
     },
     {
@@ -229,7 +229,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 700,
         diet: 'herbivore',
-        imagePath: '/sprites/buffle-dafrique.png',
+        imagePath: 'sprites/buffle-dafrique.png',
         status: 'quasi menacé'
     },
     {
@@ -240,7 +240,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 50,
         diet: 'herbivore',
-        imagePath: '/sprites/capybara.png',
+        imagePath: 'sprites/capybara.png',
         status: 'préoccupation mineure'
     },
     {
@@ -251,7 +251,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 8,
         diet: 'herbivore',
-        imagePath: '/sprites/mara.png',
+        imagePath: 'sprites/mara.png',
         status: 'quasi menacé'
     },
     {
@@ -262,7 +262,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 20,
         diet: 'herbivore',
-        imagePath: '/sprites/castor-du-canada.png',
+        imagePath: 'sprites/castor-du-canada.png',
         status: 'préoccupation mineure'
     },
     {
@@ -273,7 +273,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 300,
         diet: 'herbivore',
-        imagePath: '/sprites/wapiti.png',
+        imagePath: 'sprites/wapiti.png',
         status: 'préoccupation mineure'
     },
     {
@@ -284,7 +284,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 500,
         diet: 'herbivore',
-        imagePath: '/sprites/chameau-de-bactriane.png',
+        imagePath: 'sprites/chameau-de-bactriane.png',
         status: 'en danger critique'
     },
     {
@@ -295,7 +295,7 @@ export const animalList: Animal[] = [
         length: 50,
         weight: 3,
         diet: 'carnivore',
-        imagePath: '/sprites/chat-des-sables.png',
+        imagePath: 'sprites/chat-des-sables.png',
         status: 'préoccupation mineure'
     },
     {
@@ -306,7 +306,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 300,
         diet: 'herbivore',
-        imagePath: '/sprites/cheval-de-przewalski.png',
+        imagePath: 'sprites/cheval-de-przewalski.png',
         status: 'en danger'
     },
     {
@@ -317,7 +317,7 @@ export const animalList: Animal[] = [
         length: 100,
         weight: 15,
         diet: 'carnivore',
-        imagePath: '/sprites/coyote.png',
+        imagePath: 'sprites/coyote.png',
         status: 'préoccupation mineure'
     },
     {
@@ -328,7 +328,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 15,
         diet: 'carnivore',
-        imagePath: '/sprites/dingo.png',
+        imagePath: 'sprites/dingo.png',
         status: 'vulnérable'
     },
     {
@@ -339,7 +339,7 @@ export const animalList: Animal[] = [
         length: 150,
         weight: 45,
         diet: 'herbivore',
-        imagePath: '/sprites/casoar-a-casque.png',
+        imagePath: 'sprites/casoar-a-casque.png',
         status: 'préoccupation mineure'
     },
     {
@@ -350,7 +350,7 @@ export const animalList: Animal[] = [
         length: 40,
         weight: 5,
         diet: 'insectivore',
-        imagePath: '/sprites/echidne.png',
+        imagePath: 'sprites/echidne.png',
         status: 'préoccupation mineure'
     },
     {
@@ -361,7 +361,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 600,
         diet: 'herbivore',
-        imagePath: '/sprites/eland-du-cap.png',
+        imagePath: 'sprites/eland-du-cap.png',
         status: 'préoccupation mineure'
     },
     {
@@ -372,7 +372,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 250,
         diet: 'herbivore',
-        imagePath: '/sprites/hippotrague-noir.png',
+        imagePath: 'sprites/hippotrague-noir.png',
         status: 'préoccupation mineure'
     },
     {
@@ -383,7 +383,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 2,
         diet: 'omnivore',
-        imagePath: '/sprites/fennec.png',
+        imagePath: 'sprites/fennec.png',
         status: 'préoccupation mineure'
     },
     {
@@ -394,7 +394,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 30,
         diet: 'insectivore',
-        imagePath: '/sprites/tamanoir.png',
+        imagePath: 'sprites/tamanoir.png',
         status: 'vulnérable'
     },
     {
@@ -405,7 +405,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 20,
         diet: 'herbivore',
-        imagePath: '/sprites/gelada.png',
+        imagePath: 'sprites/gelada.png',
         status: 'préoccupation mineure'
     },
     {
@@ -416,7 +416,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 20,
         diet: 'omnivore',
-        imagePath: '/sprites/babouin-hamadryas.png',
+        imagePath: 'sprites/babouin-hamadryas.png',
         status: 'préoccupation mineure'
     },
     {
@@ -427,7 +427,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 6,
         diet: 'omnivore',
-        imagePath: '/sprites/gibbon-lar.png',
+        imagePath: 'sprites/gibbon-lar.png',
         status: 'en danger'
     },
     {
@@ -438,7 +438,7 @@ export const animalList: Animal[] = [
         length: 80,
         weight: 15,
         diet: 'carnivore',
-        imagePath: '/sprites/carcajou.png',
+        imagePath: 'sprites/carcajou.png',
         status: 'préoccupation mineure'
     },
     {
@@ -449,7 +449,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 250,
         diet: 'herbivore',
-        imagePath: '/sprites/gnou-bleu.png',
+        imagePath: 'sprites/gnou-bleu.png',
         status: 'préoccupation mineure'
     },
     {
@@ -460,7 +460,7 @@ export const animalList: Animal[] = [
         length: 170,
         weight: 150,
         diet: 'herbivore',
-        imagePath: '/sprites/gorille.png',
+        imagePath: 'sprites/gorille.png',
         status: 'en danger critique'
     },
     {
@@ -471,7 +471,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 250,
         diet: 'herbivore',
-        imagePath: '/sprites/grand-koudou.png',
+        imagePath: 'sprites/grand-koudou.png',
         status: 'préoccupation mineure'
     },
     {
@@ -482,7 +482,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 300,
         diet: 'omnivore',
-        imagePath: '/sprites/ours-brun.png',
+        imagePath: 'sprites/ours-brun.png',
         status: 'préoccupation mineure'
     },
     {
@@ -493,7 +493,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 100,
         diet: 'herbivore',
-        imagePath: '/sprites/guanaco.png',
+        imagePath: 'sprites/guanaco.png',
         status: 'préoccupation mineure'
     },
     {
@@ -504,7 +504,7 @@ export const animalList: Animal[] = [
         length: 130,
         weight: 50,
         diet: 'carnivore',
-        imagePath: '/sprites/guepard.png',
+        imagePath: 'sprites/guepard.png',
         status: 'vulnérable'
     },
     {
@@ -515,7 +515,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 1,
         diet: 'insectivore',
-        imagePath: '/sprites/herisson-commun.png',
+        imagePath: 'sprites/herisson-commun.png',
         status: 'quasi menacé'
     },
     {
@@ -526,7 +526,7 @@ export const animalList: Animal[] = [
         length: 350,
         weight: 1500,
         diet: 'herbivore',
-        imagePath: '/sprites/hippopotame-amphibie.png',
+        imagePath: 'sprites/hippopotame-amphibie.png',
         status: 'vulnérable'
     },
     {
@@ -537,7 +537,7 @@ export const animalList: Animal[] = [
         length: 130,
         weight: 60,
         diet: 'carnivore',
-        imagePath: '/sprites/hyene-tachetee.png',
+        imagePath: 'sprites/hyene-tachetee.png',
         status: 'préoccupation mineure'
     },
     {
@@ -548,7 +548,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 25,
         diet: 'carnivore',
-        imagePath: '/sprites/lycaon.png',
+        imagePath: 'sprites/lycaon.png',
         status: 'en danger'
     },
     {
@@ -559,7 +559,7 @@ export const animalList: Animal[] = [
         length: 50,
         weight: 3,
         diet: 'omnivore',
-        imagePath: '/sprites/kinkajou.png',
+        imagePath: 'sprites/kinkajou.png',
         status: 'préoccupation mineure'
     },
     {
@@ -570,7 +570,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 500,
         diet: 'herbivore',
-        imagePath: '/sprites/lamantin-des-caraibes.png',
+        imagePath: 'sprites/lamantin-des-caraibes.png',
         status: 'en danger critique'
     },
     {
@@ -581,7 +581,7 @@ export const animalList: Animal[] = [
         length: 160,
         weight: 90,
         diet: 'carnivore',
-        imagePath: '/sprites/jaguar.png',
+        imagePath: 'sprites/jaguar.png',
         status: 'quasi menacé'
     },
     {
@@ -592,7 +592,7 @@ export const animalList: Animal[] = [
         length: 40,
         weight: 3,
         diet: 'omnivore',
-        imagePath: '/sprites/lemur-catta.png',
+        imagePath: 'sprites/lemur-catta.png',
         status: 'en danger'
     },
     {
@@ -603,7 +603,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 7,
         diet: 'carnivore',
-        imagePath: '/sprites/fossa.png',
+        imagePath: 'sprites/fossa.png',
         status: 'vulnérable'
     },
     {
@@ -614,7 +614,7 @@ export const animalList: Animal[] = [
         length: 190,
         weight: 200,
         diet: 'carnivore',
-        imagePath: '/sprites/lion.png',
+        imagePath: 'sprites/lion.png',
         status: 'vulnérable'
     },
     {
@@ -625,7 +625,7 @@ export const animalList: Animal[] = [
         length: 100,
         weight: 25,
         diet: 'omnivore',
-        imagePath: '/sprites/loup-a-criniere.png',
+        imagePath: 'sprites/loup-a-criniere.png',
         status: 'quasi menacé'
     },
     {
@@ -636,7 +636,7 @@ export const animalList: Animal[] = [
         length: 100,
         weight: 30,
         diet: 'carnivore',
-        imagePath: '/sprites/loutre-de-mer.png',
+        imagePath: 'sprites/loutre-de-mer.png',
         status: 'en danger'
     },
     {
@@ -647,7 +647,7 @@ export const animalList: Animal[] = [
         length: 80,
         weight: 25,
         diet: 'omnivore',
-        imagePath: '/sprites/mandrill.png',
+        imagePath: 'sprites/mandrill.png',
         status: 'vulnérable'
     },
     {
@@ -658,7 +658,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 1200,
         diet: 'carnivore',
-        imagePath: '/sprites/morse.png',
+        imagePath: 'sprites/morse.png',
         status: 'vulnérable'
     },
     {
@@ -669,7 +669,7 @@ export const animalList: Animal[] = [
         length: 50,
         weight: 2,
         diet: 'carnivore',
-        imagePath: '/sprites/ornithorynque.png',
+        imagePath: 'sprites/ornithorynque.png',
         status: 'quasi menacé'
     },
     {
@@ -680,7 +680,7 @@ export const animalList: Animal[] = [
         length: 130,
         weight: 75,
         diet: 'omnivore',
-        imagePath: '/sprites/orang-outan.png',
+        imagePath: 'sprites/orang-outan.png',
         status: 'en danger critique'
     },
     {
@@ -691,7 +691,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 450,
         diet: 'herbivore',
-        imagePath: '/sprites/orignal.png',
+        imagePath: 'sprites/orignal.png',
         status: 'préoccupation mineure'
     },
     {
@@ -702,7 +702,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 200,
         diet: 'herbivore',
-        imagePath: '/sprites/oryx-gazelle.png',
+        imagePath: 'sprites/oryx-gazelle.png',
         status: 'préoccupation mineure'
     },
     {
@@ -713,7 +713,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 300,
         diet: 'carnivore',
-        imagePath: '/sprites/otarie-a-criniere.png',
+        imagePath: 'sprites/otarie-a-criniere.png',
         status: 'préoccupation mineure'
     },
     {
@@ -724,7 +724,7 @@ export const animalList: Animal[] = [
         length: 500,
         weight: 2500,
         diet: 'carnivore',
-        imagePath: '/sprites/elephant-de-mer.png',
+        imagePath: 'sprites/elephant-de-mer.png',
         status: 'préoccupation mineure'
     },
     {
@@ -735,7 +735,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 450,
         diet: 'carnivore',
-        imagePath: '/sprites/ours-blanc.png',
+        imagePath: 'sprites/ours-blanc.png',
         status: 'vulnérable'
     },
     {
@@ -746,7 +746,7 @@ export const animalList: Animal[] = [
         length: 150,
         weight: 120,
         diet: 'omnivore',
-        imagePath: '/sprites/ours-a-collier.png',
+        imagePath: 'sprites/ours-a-collier.png',
         status: 'vulnérable'
     },
     {
@@ -757,7 +757,7 @@ export const animalList: Animal[] = [
         length: 100,
         weight: 30,
         diet: 'insectivore',
-        imagePath: '/sprites/pangolin.png',
+        imagePath: 'sprites/pangolin.png',
         status: 'en danger'
     },
     {
@@ -768,7 +768,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 6,
         diet: 'herbivore',
-        imagePath: '/sprites/paresseux.png',
+        imagePath: 'sprites/paresseux.png',
         status: 'préoccupation mineure'
     },
     {
@@ -779,7 +779,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 80,
         diet: 'omnivore',
-        imagePath: '/sprites/phacochere.png',
+        imagePath: 'sprites/phacochere.png',
         status: 'préoccupation mineure'
     },
     {
@@ -790,7 +790,7 @@ export const animalList: Animal[] = [
         length: 160,
         weight: 100,
         diet: 'carnivore',
-        imagePath: '/sprites/phoque-commun.png',
+        imagePath: 'sprites/phoque-commun.png',
         status: 'préoccupation mineure'
     },
     {
@@ -801,7 +801,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 70,
         diet: 'omnivore',
-        imagePath: '/sprites/potamochere.png',
+        imagePath: 'sprites/potamochere.png',
         status: 'préoccupation mineure'
     },
     {
@@ -812,7 +812,7 @@ export const animalList: Animal[] = [
         length: 140,
         weight: 70,
         diet: 'carnivore',
-        imagePath: '/sprites/puma.png',
+        imagePath: 'sprites/puma.png',
         status: 'préoccupation mineure'
     },
     {
@@ -823,7 +823,7 @@ export const animalList: Animal[] = [
         length: 220,
         weight: 150,
         diet: 'herbivore',
-        imagePath: '/sprites/renne.png',
+        imagePath: 'sprites/renne.png',
         status: 'vulnérable'
     },
     {
@@ -834,7 +834,7 @@ export const animalList: Animal[] = [
         length: 350,
         weight: 2000,
         diet: 'herbivore',
-        imagePath: '/sprites/rhinoceros-indien.png',
+        imagePath: 'sprites/rhinoceros-indien.png',
         status: 'vulnérable'
     },
     {
@@ -845,7 +845,7 @@ export const animalList: Animal[] = [
         length: 140,
         weight: 100,
         diet: 'omnivore',
-        imagePath: '/sprites/sanglier.png',
+        imagePath: 'sprites/sanglier.png',
         status: 'préoccupation mineure'
     },
     {
@@ -856,7 +856,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 0,
         diet: 'carnivore',
-        imagePath: '/sprites/suricate.png',
+        imagePath: 'sprites/suricate.png',
         status: 'préoccupation mineure'
     },
     {
@@ -867,7 +867,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 0,
         diet: 'omnivore',
-        imagePath: '/sprites/tamarin-lion-dore.png',
+        imagePath: 'sprites/tamarin-lion-dore.png',
         status: 'en danger'
     },
     {
@@ -878,7 +878,7 @@ export const animalList: Animal[] = [
         length: 40,
         weight: 5,
         diet: 'insectivore',
-        imagePath: '/sprites/tatou-a-neuf-bandes.png',
+        imagePath: 'sprites/tatou-a-neuf-bandes.png',
         status: 'préoccupation mineure'
     },
     {
@@ -889,7 +889,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 200,
         diet: 'carnivore',
-        imagePath: '/sprites/tigre.png',
+        imagePath: 'sprites/tigre.png',
         status: 'en danger'
     },
     {
@@ -900,7 +900,7 @@ export const animalList: Animal[] = [
         length: 300,
         weight: 500,
         diet: 'herbivore',
-        imagePath: '/sprites/yack.png',
+        imagePath: 'sprites/yack.png',
         status: 'vulnérable'
     },
     {
@@ -911,7 +911,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 300,
         diet: 'herbivore',
-        imagePath: '/sprites/zebre.png',
+        imagePath: 'sprites/zebre.png',
         status: 'quasi menacé'
     },
     {
@@ -922,7 +922,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 120,
         diet: 'omnivore',
-        imagePath: '/sprites/autruche-dafrique.png',
+        imagePath: 'sprites/autruche-dafrique.png',
         status: 'préoccupation mineure'
     },
     {
@@ -933,7 +933,7 @@ export const animalList: Animal[] = [
         length: 170,
         weight: 40,
         diet: 'omnivore',
-        imagePath: '/sprites/emeu.png',
+        imagePath: 'sprites/emeu.png',
         status: 'préoccupation mineure'
     },
     {
@@ -944,7 +944,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 35,
         diet: 'carnivore',
-        imagePath: '/sprites/manchot-empereur.png',
+        imagePath: 'sprites/manchot-empereur.png',
         status: 'en danger'
     },
     {
@@ -955,7 +955,7 @@ export const animalList: Animal[] = [
         length: 110,
         weight: 11,
         diet: 'carnivore',
-        imagePath: '/sprites/condor-des-andes.png',
+        imagePath: 'sprites/condor-des-andes.png',
         status: 'vulnérable'
     },
     {
@@ -966,7 +966,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 0,
         diet: 'omnivore',
-        imagePath: '/sprites/toucan-toco.png',
+        imagePath: 'sprites/toucan-toco.png',
         status: 'préoccupation mineure'
     },
     {
@@ -977,7 +977,7 @@ export const animalList: Animal[] = [
         length: 40,
         weight: 3,
         diet: 'omnivore',
-        imagePath: '/sprites/kiwi.png',
+        imagePath: 'sprites/kiwi.png',
         status: 'vulnérable'
     },
     {
@@ -988,7 +988,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 0,
         diet: 'carnivore',
-        imagePath: '/sprites/macareux-moine.png',
+        imagePath: 'sprites/macareux-moine.png',
         status: 'vulnérable'
     },
     {
@@ -999,7 +999,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 70,
         diet: 'carnivore',
-        imagePath: '/sprites/dragon-de-komodo.png',
+        imagePath: 'sprites/dragon-de-komodo.png',
         status: 'en danger'
     },
     {
@@ -1010,7 +1010,7 @@ export const animalList: Animal[] = [
         length: 400,
         weight: 160,
         diet: 'carnivore',
-        imagePath: '/sprites/gavial-du-gange.png',
+        imagePath: 'sprites/gavial-du-gange.png',
         status: 'en danger critique'
     },
     {
@@ -1021,7 +1021,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 220,
         diet: 'herbivore',
-        imagePath: '/sprites/tortue-geante-des-galapagos.png',
+        imagePath: 'sprites/tortue-geante-des-galapagos.png',
         status: 'en danger critique'
     },
     {
@@ -1032,7 +1032,7 @@ export const animalList: Animal[] = [
         length: 400,
         weight: 410,
         diet: 'carnivore',
-        imagePath: '/sprites/crocodile-du-nil.png',
+        imagePath: 'sprites/crocodile-du-nil.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1043,7 +1043,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 3,
         diet: 'carnivore',
-        imagePath: '/sprites/grenouille-goliath.png',
+        imagePath: 'sprites/grenouille-goliath.png',
         status: 'en danger'
     },
     {
@@ -1054,7 +1054,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 7,
         diet: 'herbivore',
-        imagePath: '/sprites/dendrolague-de-goodfellow.png',
+        imagePath: 'sprites/dendrolague-de-goodfellow.png',
         status: 'en danger'
     },
     {
@@ -1065,7 +1065,7 @@ export const animalList: Animal[] = [
         length: 0,
         weight: 0,
         diet: 'insectivore',
-        imagePath: '/sprites/dendrobate-a-tapirer.png',
+        imagePath: 'sprites/dendrobate-a-tapirer.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1076,7 +1076,7 @@ export const animalList: Animal[] = [
         length: 0,
         weight: 0,
         diet: 'insectivore',
-        imagePath: '/sprites/rainette-aux-yeux-rouges.png',
+        imagePath: 'sprites/rainette-aux-yeux-rouges.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1087,7 +1087,7 @@ export const animalList: Animal[] = [
         length: 1000,
         weight: 9000,
         diet: 'omnivore',
-        imagePath: '/sprites/requin-baleine.png',
+        imagePath: 'sprites/requin-baleine.png',
         status: 'en danger'
     },
     {
@@ -1098,7 +1098,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 1,
         diet: 'carnivore',
-        imagePath: '/sprites/piranha-a-ventre-rouge.png',
+        imagePath: 'sprites/piranha-a-ventre-rouge.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1109,7 +1109,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 3,
         diet: 'carnivore',
-        imagePath: '/sprites/manchot-du-cap.png',
+        imagePath: 'sprites/manchot-du-cap.png',
         status: 'en danger critique'
     },
     {
@@ -1120,7 +1120,7 @@ export const animalList: Animal[] = [
         length: 170,
         weight: 80,
         diet: 'carnivore',
-        imagePath: '/sprites/coelacanthe.png',
+        imagePath: 'sprites/coelacanthe.png',
         status: 'en danger critique'
     },
     {
@@ -1131,7 +1131,7 @@ export const animalList: Animal[] = [
         length: 450,
         weight: 1350,
         diet: 'carnivore',
-        imagePath: '/sprites/raie-manta.png',
+        imagePath: 'sprites/raie-manta.png',
         status: 'en danger'
     },
     {
@@ -1142,7 +1142,7 @@ export const animalList: Animal[] = [
         length: 100,
         weight: 5,
         diet: 'carnivore',
-        imagePath: '/sprites/saumon-de-latlantique.png',
+        imagePath: 'sprites/saumon-de-latlantique.png',
         status: 'quasi menacé'
     },
     {
@@ -1153,7 +1153,7 @@ export const animalList: Animal[] = [
         length: 0,
         weight: 0,
         diet: 'omnivore',
-        imagePath: '/sprites/poisson-clown.png',
+        imagePath: 'sprites/poisson-clown.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1164,7 +1164,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 0,
         diet: 'carnivore',
-        imagePath: '/sprites/rascasse-volante.png',
+        imagePath: 'sprites/rascasse-volante.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1175,7 +1175,7 @@ export const animalList: Animal[] = [
         length: 30,
         weight: 0,
         diet: 'carnivore',
-        imagePath: '/sprites/axolotl.png',
+        imagePath: 'sprites/axolotl.png',
         status: 'en danger critique'
     },
     {
@@ -1186,7 +1186,7 @@ export const animalList: Animal[] = [
         length: 20,
         weight: 0,
         diet: 'carnivore',
-        imagePath: '/sprites/ouaouaron.png',
+        imagePath: 'sprites/ouaouaron.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1197,7 +1197,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 45,
         diet: 'carnivore',
-        imagePath: '/sprites/caiman-yacare.png',
+        imagePath: 'sprites/caiman-yacare.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1208,7 +1208,7 @@ export const animalList: Animal[] = [
         length: 350,
         weight: 6,
         diet: 'carnivore',
-        imagePath: '/sprites/cobra-royal.png',
+        imagePath: 'sprites/cobra-royal.png',
         status: 'vulnérable'
     },
     {
@@ -1219,7 +1219,7 @@ export const animalList: Animal[] = [
         length: 350,
         weight: 230,
         diet: 'carnivore',
-        imagePath: '/sprites/alligator-damerique.png',
+        imagePath: 'sprites/alligator-damerique.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1230,7 +1230,7 @@ export const animalList: Animal[] = [
         length: 150,
         weight: 4,
         diet: 'herbivore',
-        imagePath: '/sprites/iguane-vert.png',
+        imagePath: 'sprites/iguane-vert.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1241,7 +1241,7 @@ export const animalList: Animal[] = [
         length: 50,
         weight: 4,
         diet: 'omnivore',
-        imagePath: '/sprites/coati-roux.png',
+        imagePath: 'sprites/coati-roux.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1252,7 +1252,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 80,
         diet: 'carnivore',
-        imagePath: '/sprites/tortue-alligator.png',
+        imagePath: 'sprites/tortue-alligator.png',
         status: 'vulnérable'
     },
     {
@@ -1263,7 +1263,7 @@ export const animalList: Animal[] = [
         length: 120,
         weight: 5,
         diet: 'carnivore',
-        imagePath: '/sprites/bec-en-sabot-du-nil.png',
+        imagePath: 'sprites/bec-en-sabot-du-nil.png',
         status: 'vulnérable'
     },
     {
@@ -1274,7 +1274,7 @@ export const animalList: Animal[] = [
         length: 60,
         weight: 0,
         diet: 'carnivore',
-        imagePath: '/sprites/ibis-rouge.png',
+        imagePath: 'sprites/ibis-rouge.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1285,7 +1285,7 @@ export const animalList: Animal[] = [
         length: 70,
         weight: 3,
         diet: 'herbivore',
-        imagePath: '/sprites/goura-de-victoria.png',
+        imagePath: 'sprites/goura-de-victoria.png',
         status: 'quasi menacé'
     },
     {
@@ -1296,7 +1296,7 @@ export const animalList: Animal[] = [
         length: 150,
         weight: 7,
         diet: 'carnivore',
-        imagePath: '/sprites/marabout-dafrique.png',
+        imagePath: 'sprites/marabout-dafrique.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1307,7 +1307,7 @@ export const animalList: Animal[] = [
         length: 110,
         weight: 4,
         diet: 'omnivore',
-        imagePath: '/sprites/paon-bleu.png',
+        imagePath: 'sprites/paon-bleu.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1318,7 +1318,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 4,
         diet: 'carnivore',
-        imagePath: '/sprites/pygargue-a-tete-blanche.png',
+        imagePath: 'sprites/pygargue-a-tete-blanche.png',
         status: 'préoccupation mineure'
     }, 
     {
@@ -1329,7 +1329,7 @@ export const animalList: Animal[] = [
         length: 500,
         weight: 450,
         diet: 'carnivore',
-        imagePath: '/sprites/crocodile-marin.png',
+        imagePath: 'sprites/crocodile-marin.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1340,7 +1340,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 17,
         diet: 'carnivore',
-        imagePath: '/sprites/dhole.png',
+        imagePath: 'sprites/dhole.png',
         status: 'en danger'
     },
     {
@@ -1351,7 +1351,7 @@ export const animalList: Animal[] = [
         length: 250,
         weight: 100,
         diet: 'carnivore',
-        imagePath: '/sprites/esturgeon-atlantique.png',
+        imagePath: 'sprites/esturgeon-atlantique.png',
         status: 'en danger'
     },
     {
@@ -1362,7 +1362,7 @@ export const animalList: Animal[] = [
         length: 150,
         weight: 80,
         diet: 'herbivore',
-        imagePath: '/sprites/markhor.png',
+        imagePath: 'sprites/markhor.png',
         status: 'quasi menacé'
     },
     {
@@ -1373,7 +1373,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 14,
         diet: 'herbivore',
-        imagePath: '/sprites/muntjac-de-reeves.png',
+        imagePath: 'sprites/muntjac-de-reeves.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1384,7 +1384,7 @@ export const animalList: Animal[] = [
         length: 200,
         weight: 200,
         diet: 'herbivore',
-        imagePath: '/sprites/onagre.png',
+        imagePath: 'sprites/onagre.png',
         status: 'en danger'
     },
     {
@@ -1395,7 +1395,7 @@ export const animalList: Animal[] = [
         length: 90,
         weight: 19,
         diet: 'carnivore',
-        imagePath: '/sprites/panthere-nebuleuse.png',
+        imagePath: 'sprites/panthere-nebuleuse.png',
         status: 'vulnérable'
     },
     {
@@ -1406,7 +1406,7 @@ export const animalList: Animal[] = [
         length: 140,
         weight: 65,
         diet: 'carnivore',
-        imagePath: '/sprites/phoque-annele.png',
+        imagePath: 'sprites/phoque-annele.png',
         status: 'préoccupation mineure'
     },
     {
@@ -1417,7 +1417,7 @@ export const animalList: Animal[] = [
         length: 180,
         weight: 400,
         diet: 'herbivore',
-        imagePath: '/sprites/zebu.png',
+        imagePath: 'sprites/zebu.png',
         status: 'préoccupation mineure'
     }
     
